@@ -37,7 +37,7 @@
     border-radius: 10px;
   }
   .menu-items {
-    display: flex;
+    display: none;
     margin: 20px 0;
   }
   .menu-info {
@@ -56,4 +56,8 @@
   
   .menu-text {
     padding-top: 20px;
+  }
+
+  .active{
+    display: flex;
   }
